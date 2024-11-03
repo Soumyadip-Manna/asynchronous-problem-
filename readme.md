@@ -1,0 +1,1 @@
+# asynchronous problem solved, get api data, print that data , error Handling problem are include here

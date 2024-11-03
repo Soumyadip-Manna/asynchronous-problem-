@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api Problem</title>
+</head>
+<body>
+    
+
+    <script >
+        const url =  'https://jsonplaceholder.typicode.com/todos/1';
+
+        async  function apiData()  {
+        let response =   await fetch(url);
+        let jsonRes = await response.json();
+
+        console.log(jsonRes);
+        };
+
+        apiData();
+    </script>
+</body>
+</html>
